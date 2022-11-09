@@ -1,0 +1,58 @@
+# Rate Profile 0 (Whoop rates for tight courses)
+rateprofile 0
+set rateprofile_name = tight
+# NEED TO GRAB OFF OF meteor (profile 1)
+
+# Rate Profile 1 (Whoop rates for big courses)
+rateprofile 1
+set rateprofile_name = loose
+set thr_mid = 50
+set thr_expo = 10
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 6
+set pitch_rc_rate = 6
+set yaw_rc_rate = 6
+set roll_expo = 20
+set pitch_expo = 20
+set yaw_expo = 10
+set roll_srate = 60
+set pitch_srate = 60
+set yaw_srate = 60
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+set tpa_mode = D
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0
+
+# 5 inch Freestyle rates
+rateprofile 2
+set rateprofile_name = frstyl
+set thr_mid = 50
+set thr_expo = 0
+set rates_type = BETAFLIGHT
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 120
+set pitch_rc_rate = 120
+set yaw_rc_rate = 120
+set roll_expo = 5
+set pitch_expo = 5
+set yaw_expo = 0
+set roll_srate = 65
+set pitch_srate = 65
+set yaw_srate = 60
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+set tpa_mode = D
+set throttle_limit_type = OFF
+set throttle_limit_percent = 100
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0

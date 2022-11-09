@@ -1,9 +1,31 @@
-# Rate Profile 0 (Whoop rates for tight courses)
+# Whoop rates for tight courses (Throttle limited)
 rateprofile 0
 set rateprofile_name = tight
-# NEED TO GRAB OFF OF meteor (profile 1)
+set thr_mid = 40
+set thr_expo = 15
+set rates_type = ACTUAL
+set quickrates_rc_expo = OFF
+set roll_rc_rate = 4
+set pitch_rc_rate = 4
+set yaw_rc_rate = 4
+set roll_expo = 25
+set pitch_expo = 25
+set yaw_expo = 10
+set roll_srate = 62
+set pitch_srate = 62
+set yaw_srate = 62
+set tpa_rate = 65
+set tpa_breakpoint = 1350
+set tpa_mode = D
+set throttle_limit_type = SCALE
+set throttle_limit_percent = 87
+set roll_rate_limit = 1998
+set pitch_rate_limit = 1998
+set yaw_rate_limit = 1998
+set roll_level_expo = 0
+set pitch_level_expo = 0
 
-# Rate Profile 1 (Whoop rates for big courses)
+# Whoop rates for big courses
 rateprofile 1
 set rateprofile_name = loose
 set thr_mid = 50
